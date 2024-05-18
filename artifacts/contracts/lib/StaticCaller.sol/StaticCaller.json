@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StaticCaller",
+  "sourceName": "contracts/lib/StaticCaller.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b5599675ee8f600a18b54a17cd3f4b325a5985d088c654d89893b08cce9bffe764736f6c63430007050033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b5599675ee8f600a18b54a17cd3f4b325a5985d088c654d89893b08cce9bffe764736f6c63430007050033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

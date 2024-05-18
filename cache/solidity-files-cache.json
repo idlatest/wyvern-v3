@@ -1,0 +1,1937 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/idee/Documents/code/wyvern-v3/contracts/Migrations.sol": {
+      "lastModificationDate": 1715018299885,
+      "contentHash": "fe3fd51cd6b2a1853d8971fb18ed302d",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/StaticMarket.sol": {
+      "lastModificationDate": 1715018299885,
+      "contentHash": "0ea5c79b431a00ce6fb706a39afed519",
+      "sourceName": "contracts/StaticMarket.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./lib/ArrayUtils.sol",
+        "./registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticMarket"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/lib/ArrayUtils.sol": {
+      "lastModificationDate": 1715018299887,
+      "contentHash": "9eb1a3350a8bec66741b187a01a1e25d",
+      "sourceName": "contracts/lib/ArrayUtils.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ArrayUtils"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/AuthenticatedProxy.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "de76815c869ec774a2273eb4bfda0fa7",
+      "sourceName": "contracts/registry/AuthenticatedProxy.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ProxyRegistry.sol",
+        "./TokenRecipient.sol",
+        "./proxy/OwnedUpgradeabilityStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "AuthenticatedProxy"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1715869355841,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "openzeppelin-solidity/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/ProxyRegistry.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "c133afcaee8ac1faf00c63f08457b362",
+      "sourceName": "contracts/registry/ProxyRegistry.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "./OwnableDelegateProxy.sol",
+        "./ProxyRegistryInterface.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ProxyRegistry"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/TokenRecipient.sol": {
+      "lastModificationDate": 1715018299889,
+      "contentHash": "4e067cb02586a85432c6101af7e34190",
+      "sourceName": "contracts/registry/TokenRecipient.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TokenRecipient"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol": {
+      "lastModificationDate": 1715018299889,
+      "contentHash": "0ea58aed02cf6874cd6cf3334c61b860",
+      "sourceName": "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "OwnedUpgradeabilityStorage"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/OwnableDelegateProxy.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "f5d707e5ed18920c2106e23c3918f2ba",
+      "sourceName": "contracts/registry/OwnableDelegateProxy.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./proxy/OwnedUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "OwnableDelegateProxy"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/ProxyRegistryInterface.sol": {
+      "lastModificationDate": 1715018299889,
+      "contentHash": "ea44122793d1edc0a99ad42a7967a116",
+      "sourceName": "contracts/registry/ProxyRegistryInterface.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OwnableDelegateProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ProxyRegistryInterface"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1715869355840,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1715018299889,
+      "contentHash": "e3f4e7bc3483fb46d88a6843e999974b",
+      "sourceName": "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "./OwnedUpgradeabilityStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "OwnedUpgradeabilityProxy"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/registry/proxy/Proxy.sol": {
+      "lastModificationDate": 1715018299889,
+      "contentHash": "ad5099697389c3fe55ccacc0f36b233d",
+      "sourceName": "contracts/registry/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1715018928829,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "openzeppelin-solidity/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1715869358997,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1715869358999,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/static/StaticUtil.sol": {
+      "lastModificationDate": 1715018299890,
+      "contentHash": "1fac35f4b864b9bf06d063e24474c029",
+      "sourceName": "contracts/static/StaticUtil.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../lib/StaticCaller.sol",
+        "../lib/ArrayUtils.sol",
+        "../registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticUtil"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/lib/StaticCaller.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "c5853636f28134a538ab4fd13ded7505",
+      "sourceName": "contracts/lib/StaticCaller.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticCaller"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/static/StaticERC721.sol": {
+      "lastModificationDate": 1715018299890,
+      "contentHash": "bb0236db707cd8acce971953d4f818f9",
+      "sourceName": "contracts/static/StaticERC721.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "../lib/ArrayUtils.sol",
+        "../registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticERC721"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/ERC1155.sol": {
+      "lastModificationDate": 1715869358983,
+      "contentHash": "33407bb7ff4811650cd1c328e646e55d",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/ERC1155.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol",
+        "./IERC1155MetadataURI.sol",
+        "./IERC1155Receiver.sol",
+        "../../utils/Context.sol",
+        "../../introspection/ERC165.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1715869355874,
+      "contentHash": "08f854e2dd3c262845bba38c9b48e4e0",
+      "sourceName": "openzeppelin-solidity/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
+      "lastModificationDate": 1715869355871,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155.sol": {
+      "lastModificationDate": 1715869358984,
+      "contentHash": "cb9dc62067a205eeab4f390c72c7fe14",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155Receiver.sol": {
+      "lastModificationDate": 1715869358985,
+      "contentHash": "27af002e8fc1118d099c99fc8852bb73",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1715869358985,
+      "contentHash": "9a313e25e2a837a50f7ae87017539457",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1715869355875,
+      "contentHash": "0d62a8380952235f135dae91590f90a3",
+      "sourceName": "openzeppelin-solidity/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1715869359014,
+      "contentHash": "e82621b83943f11c44988c60e83d6ebc",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol": {
+      "lastModificationDate": 1715869359011,
+      "contentHash": "370e7a48f316401b5063bcb604843e1b",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1715869359002,
+      "contentHash": "2d9804eb2b6f41ea0a65115e154d90eb",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC721.sol",
+        "./IERC721Metadata.sol",
+        "./IERC721Enumerable.sol",
+        "./IERC721Receiver.sol",
+        "../../introspection/ERC165.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol",
+        "../../utils/EnumerableSet.sol",
+        "../../utils/EnumerableMap.sol",
+        "../../utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1715869355873,
+      "contentHash": "c86a31bacf868d392eda08a0eccc4735",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/EnumerableMap.sol": {
+      "lastModificationDate": 1715869355872,
+      "contentHash": "b1bb8570824c668943149211d74d6c51",
+      "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1715869355871,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol": {
+      "lastModificationDate": 1715869359008,
+      "contentHash": "eaebc3874248c26f6ea0b13b9a140a94",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1715869359011,
+      "contentHash": "fad0b3f4424bdbb4b35467b29ea8d334",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestERC20.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "dfe67b2ce6f6c9c05724eb9b31fb9d40",
+      "sourceName": "contracts/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/exchange/ExchangeCore.sol": {
+      "lastModificationDate": 1715018299887,
+      "contentHash": "07cad1e664f1a629e78838cd9431520b",
+      "sourceName": "contracts/exchange/ExchangeCore.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "../lib/StaticCaller.sol",
+        "../lib/ReentrancyGuarded.sol",
+        "../lib/EIP712.sol",
+        "../lib/EIP1271.sol",
+        "../registry/ProxyRegistryInterface.sol",
+        "../registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ExchangeCore"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/lib/ReentrancyGuarded.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "91c9bf0f6c05305c38f8f0763ebde796",
+      "sourceName": "contracts/lib/ReentrancyGuarded.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ReentrancyGuarded"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/lib/EIP712.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "5f883dd093bbaf97684b867e1108c8d5",
+      "sourceName": "contracts/lib/EIP712.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/lib/EIP1271.sol": {
+      "lastModificationDate": 1715018299888,
+      "contentHash": "168982f01e2a0487890c94cfae7fe5e7",
+      "sourceName": "contracts/lib/EIP1271.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ERC1271"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestERC1271.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "9d2b25006f4c11078461ae61bba73b90",
+      "sourceName": "contracts/TestERC1271.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./lib/EIP1271.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TestERC1271"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/exchange/Exchange.sol": {
+      "lastModificationDate": 1715018299887,
+      "contentHash": "2df13f334c6e81557849f86602b557f9",
+      "sourceName": "contracts/exchange/Exchange.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ExchangeCore.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Exchange"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/WyvernExchange.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "ac8c681a95970b4d6f58f4a218d857d3",
+      "sourceName": "contracts/WyvernExchange.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./exchange/Exchange.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "WyvernExchange"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/WyvernRegistry.sol": {
+      "lastModificationDate": 1715018299887,
+      "contentHash": "31d088ecd875bb970b485501cee1a784",
+      "sourceName": "contracts/WyvernRegistry.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./registry/ProxyRegistry.sol",
+        "./registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "WyvernRegistry"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestSmartContractWallet.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "118e936de5fe0e2bf73244548bf8262f",
+      "sourceName": "contracts/TestSmartContractWallet.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC721/ERC721.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "ExchangeInterface",
+        "ProxyInterface",
+        "TestSmartContractWallet"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestERC721.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "83f41b6f2d5ef52c871f8988f64a555e",
+      "sourceName": "contracts/TestERC721.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC721/ERC721.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TestERC721"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestERC1155.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "546c31d89b5f3ebade19d409db751877",
+      "sourceName": "contracts/TestERC1155.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC1155/ERC1155.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TestERC1155"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/static/StaticERC20.sol": {
+      "lastModificationDate": 1715018299890,
+      "contentHash": "d2e2d50694e3f331bb9274ce3bdeb1f4",
+      "sourceName": "contracts/static/StaticERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "../lib/ArrayUtils.sol",
+        "../registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticERC20"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/WyvernStatic.sol": {
+      "lastModificationDate": 1715018299887,
+      "contentHash": "87ee2d545db56526af6940c9a982e1e0",
+      "sourceName": "contracts/WyvernStatic.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./static/StaticERC20.sol",
+        "./static/StaticERC721.sol",
+        "./static/StaticERC1155.sol",
+        "./static/StaticUtil.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "WyvernStatic"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/static/StaticERC1155.sol": {
+      "lastModificationDate": 1715018299890,
+      "contentHash": "369d978e2c8a747aef745de8bcf1dd58",
+      "sourceName": "contracts/static/StaticERC1155.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "../lib/ArrayUtils.sol",
+        "../registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "StaticERC1155"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/TestAuthenticatedProxy.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "f9a6a954658d78a4d2123e65fd0df3d0",
+      "sourceName": "contracts/TestAuthenticatedProxy.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./registry/AuthenticatedProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "TestAuthenticatedProxy"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/contracts/WyvernAtomicizer.sol": {
+      "lastModificationDate": 1715018299886,
+      "contentHash": "bdd4bb3a330219343fd97569a8304966",
+      "sourceName": "contracts/WyvernAtomicizer.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "WyvernAtomicizer"
+      ]
+    },
+    "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
+      "lastModificationDate": 1715869355871,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 750
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    }
+  }
+}

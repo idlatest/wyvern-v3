@@ -1,4 +1,4 @@
 #!/bin/sh
 
 rm -rf build
-truffle test $1
+npx hardhat test $1

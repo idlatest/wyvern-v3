@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OwnedUpgradeabilityStorage",
+  "sourceName": "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "upgradeabilityOwner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060ae8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636fde820214602d575b600080fd5b6033605c565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b60015473ffffffffffffffffffffffffffffffffffffffff169056fea2646970667358221220ae2fef46a95041ddff37de9bd5fc865ce9515e9f873f5a2e802d865992e8155764736f6c63430007050033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80636fde820214602d575b600080fd5b6033605c565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b60015473ffffffffffffffffffffffffffffffffffffffff169056fea2646970667358221220ae2fef46a95041ddff37de9bd5fc865ce9515e9f873f5a2e802d865992e8155764736f6c63430007050033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

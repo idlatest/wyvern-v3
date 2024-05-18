@@ -1,0 +1,69 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ExchangeInterface",
+  "sourceName": "contracts/TestSmartContractWallet.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "registry",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "maker",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "staticTarget",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes4",
+          "name": "staticSelector",
+          "type": "bytes4"
+        },
+        {
+          "internalType": "bytes",
+          "name": "staticExtradata",
+          "type": "bytes"
+        },
+        {
+          "internalType": "uint256",
+          "name": "maximumFill",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "listingTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expirationTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "salt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "orderbookInclusionDesired",
+          "type": "bool"
+        }
+      ],
+      "name": "approveOrder_",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610157806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063995e819514610030575b600080fd5b610112600480360361014081101561004757600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101358216926040820135909216917fffffffff00000000000000000000000000000000000000000000000000000000606083013516919081019060a0810160808201356401000000008111156100b957600080fd5b8201836020820111156100cb57600080fd5b803590602001918460018302840111640100000000831117156100ed57600080fd5b9193509150803590602081013590604081013590606081013590608001351515610114565b005b505050505050505050505056fea26469706673582212206a3dfb55e77071e67a3a2ea579953db07d8bc54f5ce16a1ea0c99044368e8d2f64736f6c63430007050033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063995e819514610030575b600080fd5b610112600480360361014081101561004757600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101358216926040820135909216917fffffffff00000000000000000000000000000000000000000000000000000000606083013516919081019060a0810160808201356401000000008111156100b957600080fd5b8201836020820111156100cb57600080fd5b803590602001918460018302840111640100000000831117156100ed57600080fd5b9193509150803590602081013590604081013590606081013590608001351515610114565b005b505050505050505050505056fea26469706673582212206a3dfb55e77071e67a3a2ea579953db07d8bc54f5ce16a1ea0c99044368e8d2f64736f6c63430007050033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
