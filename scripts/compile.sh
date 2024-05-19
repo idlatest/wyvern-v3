@@ -1,5 +1,5 @@
 #!/bin/sh
 
 rm -rf build/contracts
-yarn run truffle compile --offline
+npx hardhat compile
 rm -f yarn-error.log

@@ -1,4 +1,8 @@
 /* global artifacts:false, it:false, contract:false, assert:false */
+const {
+  time,
+  loadFixture,
+} = require("@nomicfoundation/hardhat-network-helpers");
 
 const WyvernAtomicizer = artifacts.require("WyvernAtomicizer");
 const WyvernExchange = artifacts.require("WyvernExchange");
@@ -20,32 +24,54 @@ const {
   randomUint,
   NULL_SIG,
   assertIsRejected,
+  CHAIN_ID,
 } = require("./util");
 
 contract("WyvernExchange", (accounts) => {
-  const deploy = async (contracts) =>
-    Promise.all(contracts.map((contract) => contract.deployed()));
+  const deployContractsFixture = async () => {
+    const [
+      wyvernRegistry,
+      wyvernAtomicizer,
+      testERC20,
+      testERC721,
+      testERC1271,
+      testSmartContractWallet,
+    ] = await Promise.all([
+      WyvernRegistry.new(),
+      WyvernAtomicizer.new(),
+      TestERC20.new(),
+      TestERC721.new(),
+      TestERC1271.new(),
+      TestSmartContractWallet.new(),
+    ]);
+    const [wyvernExchange, wyvernStatic] = await Promise.all([
+      WyvernExchange.new(CHAIN_ID, [wyvernRegistry.address], "0x"),
+      WyvernStatic.new(wyvernAtomicizer.address),
+    ]);
+
+    return [
+      wyvernRegistry,
+      wyvernExchange,
+      wyvernAtomicizer,
+      wyvernStatic,
+      testERC20,
+      testERC721,
+      testERC1271,
+      testSmartContractWallet,
+    ];
+  };
 
   const withContracts = async () => {
     let [
-      exchange,
-      statici,
       registry,
+      exchange,
       atomicizer,
+      statici,
       erc20,
       erc721,
       erc1271,
       smartContractWallet,
-    ] = await deploy([
-      WyvernExchange,
-      WyvernStatic,
-      WyvernRegistry,
-      WyvernAtomicizer,
-      TestERC20,
-      TestERC721,
-      TestERC1271,
-      TestSmartContractWallet,
-    ]);
+    ] = await loadFixture(deployContractsFixture);
     return {
       exchange: wrap(exchange),
       statici,

@@ -1,5 +1,6 @@
-require("dotenv").config();
-require("@nomiclabs/hardhat-truffle5");
+import "dotenv/config";
+import "@nomicfoundation/hardhat-toolbox";
+import { defaults } from "lodash";
 
 // var HDWalletProvider = require("truffle-hdwallet-provider");
 // var KlaytnHDWalletProvider = require("truffle-hdwallet-provider-klaytn");
@@ -15,11 +16,11 @@ require("@nomiclabs/hardhat-truffle5");
 // var kasAccessKeyId = process.env.KAS_ACCESS_KEY_ID || "";
 // var kasSecretAccessKey = process.env.KAS_SECRET_KEY || "";
 
-module.exports = {
+const config = {
   mocha: {
     enableTimeouts: false,
   },
-  defaultNetwork: "localhost",
+  defaultNetwork: "hardhat", //"localhost",
   networks: {
     hardhat: {
       accounts: {
@@ -148,3 +149,5 @@ module.exports = {
     },
   },
 };
+
+export default config;

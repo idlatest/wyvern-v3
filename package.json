@@ -24,24 +24,18 @@
   "homepage": "https://github.com/wyvernprotocol/wyvern-v3#readme",
   "devDependencies": {
     "@babel/runtime": "^7.12.5",
-    "@nomiclabs/hardhat-truffle5": "^2.0.7",
-    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "coveralls": "^3.1.0",
     "dotenv": "^8.2.0",
     "ethereumjs-testrpc-sc": "^6.5.1-sc.1",
-    "ganache-cli": "^6.12.1",
-    "ganache-core": "^2.13.1",
     "hardhat": "^2.22.4",
     "lodash": "^4.17.20",
     "openzeppelin-solidity": "^3.3.0",
-    "solidity-coverage": "^0.7.12",
     "solium": "^1.2.5",
     "standard": "^16.0.3",
-    "truffle": "^5.1.55",
-    "truffle-flattener": "^1.5.0",
-    "truffle-hdwallet-provider": "^1.0.17",
-    "truffle-hdwallet-provider-klaytn": "^1.0.13-a",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.0",
+    "typescript": "^5.4.5",
     "web3": "^1.0.0-beta.36"
-  },
-  "dependencies": {}
+  }
 }

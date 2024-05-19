@@ -1,4 +1,8 @@
 /* global artifacts:false, it:false, contract:false, assert:false */
+const {
+  time,
+  loadFixture,
+} = require("@nomicfoundation/hardhat-network-helpers");
 
 const WyvernExchange = artifacts.require("WyvernExchange");
 const WyvernRegistry = artifacts.require("WyvernRegistry");
@@ -14,12 +18,21 @@ const {
 } = require("./util");
 
 contract("WyvernExchange", (accounts) => {
+  const deployExchangeAndRegistryFixture = async () => {
+    const wyvernRegistry = await WyvernRegistry.new();
+    const wyvernExchange = await WyvernExchange.new(
+      CHAIN_ID,
+      [wyvernRegistry.address],
+      "0x",
+    );
+    return { wyvernRegistry, wyvernExchange };
+  };
+
   const withExchangeAndRegistry = async () => {
-    let [exchange, registry] = await Promise.all([
-      WyvernExchange.deployed(),
-      WyvernRegistry.deployed(),
-    ]);
-    return { exchange: wrap(exchange), registry };
+    let { wyvernRegistry, wyvernExchange } = await loadFixture(
+      deployExchangeAndRegistryFixture,
+    );
+    return { exchange: wrap(wyvernExchange), registry: wyvernRegistry };
   };
 
   it("is deployed", async () => {
