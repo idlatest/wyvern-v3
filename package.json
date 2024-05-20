@@ -28,6 +28,7 @@
     "coveralls": "^3.1.0",
     "dotenv": "^8.2.0",
     "ethereumjs-testrpc-sc": "^6.5.1-sc.1",
+    "ethers": "^6.12.1",
     "hardhat": "^2.22.4",
     "lodash": "^4.17.20",
     "openzeppelin-solidity": "^3.3.0",
