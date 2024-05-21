@@ -6,6 +6,7 @@
 import { ethers } from "hardhat";
 import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { eip712Domain, structHash, signHash } from "./eip712";
+import { Addressable, BytesLike } from "ethers";
 
 const abiCoder = new ethers.AbiCoder();
 // // Truffle does not expose chai so it is impossible to add chai-as-promised.
@@ -67,9 +68,9 @@ const eip712Order = {
 // });
 //
 export interface Order {
-  registry: string | any; // change any to Addressable from ethers
-  maker: string;
-  staticTarget: string | any; // change any to Addressable from ethers
+  registry: string | Addressable;
+  maker: string | Addressable;
+  staticTarget: string | Addressable;
   staticSelector: string;
   staticExtradata: string;
   maximumFill: number;
@@ -83,6 +84,12 @@ export interface Signature {
   v: number;
   r: string;
   suffix?: string;
+}
+
+export interface Call {
+  target: string | Addressable;
+  howToCall: number;
+  data: string;
 }
 
 export const hashOrder = (order: Order) => {
@@ -189,13 +196,13 @@ export const wrap = (inst) => {
     setOrderFill: (order: Order, fill: number) =>
       inst.setOrderFill_(hashOrder(order), fill),
     atomicMatch: (
-      order,
-      sig,
-      call,
-      counterorder,
-      countersig,
-      countercall,
-      metadata
+      order: Order,
+      sig: Signature,
+      call: Call,
+      counterorder: Order,
+      countersig: Signature,
+      countercall: Call,
+      metadata: BytesLike
     ) =>
       inst.atomicMatch_(
         [
@@ -223,14 +230,14 @@ export const wrap = (inst) => {
         countercall.data,
         [call.howToCall, countercall.howToCall],
         metadata,
-        web3.eth.abi.encodeParameters(
+        abiCoder.encode(
           ["bytes", "bytes"],
           [
-            web3.eth.abi.encodeParameters(
+            abiCoder.encode(
               ["uint8", "bytes32", "bytes32"],
               [sig.v, sig.r, sig.s]
             ) + (sig.suffix || ""),
-            web3.eth.abi.encodeParameters(
+            abiCoder.encode(
               ["uint8", "bytes32", "bytes32"],
               [countersig.v, countersig.r, countersig.s]
             ) + (countersig.suffix || ""),
@@ -245,7 +252,7 @@ export const wrap = (inst) => {
       countersig,
       countercall,
       metadata,
-      misc
+      misc = {}
     ) =>
       inst.atomicMatch_(
         [
@@ -273,14 +280,14 @@ export const wrap = (inst) => {
         countercall.data,
         [call.howToCall, countercall.howToCall],
         metadata,
-        web3.eth.abi.encodeParameters(
+        abiCoder.encode(
           ["bytes", "bytes"],
           [
-            web3.eth.abi.encodeParameters(
+            abiCoder.encode(
               ["uint8", "bytes32", "bytes32"],
               [sig.v, sig.r, sig.s]
             ) + (sig.suffix || ""),
-            web3.eth.abi.encodeParameters(
+            abiCoder.encode(
               ["uint8", "bytes32", "bytes32"],
               [countersig.v, countersig.r, countersig.s]
             ) + (countersig.suffix || ""),
@@ -319,10 +326,10 @@ export const wrap = (inst) => {
   return obj;
 };
 
-// const randomUint = () => {
-//   return Math.floor(Math.random() * 1e10);
-// };
-//
+export const randomUint = () => {
+  return Math.floor(Math.random() * 1e10);
+};
+
 // const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 export const ZERO_BYTES32 =
   "0x0000000000000000000000000000000000000000000000000000000000000000";
