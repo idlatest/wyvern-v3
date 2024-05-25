@@ -20,7 +20,7 @@ const config = {
   mocha: {
     enableTimeouts: false,
   },
-  defaultNetwork: "hardhat", //"localhost",
+  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
       accounts: {
