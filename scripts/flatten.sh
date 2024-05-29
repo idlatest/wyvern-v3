@@ -5,9 +5,9 @@ set -ex
 rm -rf temp
 mkdir -p temp
 
-alias flatten="yarn run truffle-flattener"
+alias flatten="npx hardhat flatten"
 
-flatten contracts/WyvernAtomicizer.sol --output temp/WyvernAtomicizer.sol
-flatten contracts/WyvernRegistry.sol --output temp/WyvernRegistry.sol
-flatten contracts/WyvernExchange.sol --output temp/WyvernExchange.sol
-flatten contracts/WyvernStatic.sol --output temp/WyvernStatic.sol
+flatten contracts/WyvernAtomicizer.sol > temp/WyvernAtomicizer.sol
+flatten contracts/WyvernRegistry.sol > temp/WyvernRegistry.sol
+flatten contracts/WyvernExchange.sol > temp/WyvernExchange.sol
+flatten contracts/WyvernStatic.sol > temp/WyvernStatic.sol
