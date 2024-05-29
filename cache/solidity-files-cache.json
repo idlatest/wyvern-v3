@@ -19,12 +19,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -54,12 +61,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -92,12 +106,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -129,12 +150,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -151,7 +179,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol": {
-      "lastModificationDate": 1715869355841,
+      "lastModificationDate": 1716135061049,
       "contentHash": "e03e12206057e809eb76c5f681170c32",
       "sourceName": "openzeppelin-solidity/contracts/math/SafeMath.sol",
       "solcConfig": {
@@ -168,12 +196,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -203,12 +238,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -242,12 +284,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -279,12 +328,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -314,12 +370,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -351,12 +414,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -371,7 +441,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1715869355840,
+      "lastModificationDate": 1716135061047,
       "contentHash": "6748815a5b45c4aeeda56819f41190e0",
       "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -388,12 +458,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -425,12 +502,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -463,12 +547,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -516,7 +607,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1715869358997,
+      "lastModificationDate": 1716135060866,
       "contentHash": "8065b340476f61365c076897199425f1",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -533,12 +624,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -555,7 +653,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1715869358999,
+      "lastModificationDate": 1716135060890,
       "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -572,12 +670,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -607,12 +712,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -646,12 +758,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -681,12 +800,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -703,7 +829,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/ERC1155.sol": {
-      "lastModificationDate": 1715869358983,
+      "lastModificationDate": 1716135060862,
       "contentHash": "33407bb7ff4811650cd1c328e646e55d",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/ERC1155.sol",
       "solcConfig": {
@@ -720,12 +846,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -746,7 +879,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol": {
-      "lastModificationDate": 1715869355874,
+      "lastModificationDate": 1716135060864,
       "contentHash": "08f854e2dd3c262845bba38c9b48e4e0",
       "sourceName": "openzeppelin-solidity/contracts/introspection/ERC165.sol",
       "solcConfig": {
@@ -763,12 +896,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -783,7 +923,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
-      "lastModificationDate": 1715869355871,
+      "lastModificationDate": 1716135060857,
       "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
       "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
       "solcConfig": {
@@ -800,12 +940,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -818,7 +965,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155.sol": {
-      "lastModificationDate": 1715869358984,
+      "lastModificationDate": 1716135060887,
       "contentHash": "cb9dc62067a205eeab4f390c72c7fe14",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155.sol",
       "solcConfig": {
@@ -835,12 +982,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -855,7 +1009,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155Receiver.sol": {
-      "lastModificationDate": 1715869358985,
+      "lastModificationDate": 1716135060888,
       "contentHash": "27af002e8fc1118d099c99fc8852bb73",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155Receiver.sol",
       "solcConfig": {
@@ -872,12 +1026,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -892,7 +1053,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC1155/IERC1155MetadataURI.sol": {
-      "lastModificationDate": 1715869358985,
+      "lastModificationDate": 1716135060888,
       "contentHash": "9a313e25e2a837a50f7ae87017539457",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC1155/IERC1155MetadataURI.sol",
       "solcConfig": {
@@ -909,12 +1070,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -929,7 +1097,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol": {
-      "lastModificationDate": 1715869355875,
+      "lastModificationDate": 1716135060889,
       "contentHash": "0d62a8380952235f135dae91590f90a3",
       "sourceName": "openzeppelin-solidity/contracts/introspection/IERC165.sol",
       "solcConfig": {
@@ -946,12 +1114,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -964,7 +1139,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1715869359014,
+      "lastModificationDate": 1716135060893,
       "contentHash": "e82621b83943f11c44988c60e83d6ebc",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -981,12 +1156,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1001,7 +1183,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol": {
-      "lastModificationDate": 1715869359011,
+      "lastModificationDate": 1716135060893,
       "contentHash": "370e7a48f316401b5063bcb604843e1b",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol",
       "solcConfig": {
@@ -1018,12 +1200,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1038,7 +1227,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1715869359002,
+      "lastModificationDate": 1716135060868,
       "contentHash": "2d9804eb2b6f41ea0a65115e154d90eb",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -1055,12 +1244,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1085,7 +1281,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1715869355873,
+      "lastModificationDate": 1716135061049,
       "contentHash": "c86a31bacf868d392eda08a0eccc4735",
       "sourceName": "openzeppelin-solidity/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -1102,12 +1298,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1120,7 +1323,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/EnumerableMap.sol": {
-      "lastModificationDate": 1715869355872,
+      "lastModificationDate": 1716135060862,
       "contentHash": "b1bb8570824c668943149211d74d6c51",
       "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableMap.sol",
       "solcConfig": {
@@ -1137,12 +1340,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1155,7 +1365,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/EnumerableSet.sol": {
-      "lastModificationDate": 1715869355871,
+      "lastModificationDate": 1716135060862,
       "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
       "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableSet.sol",
       "solcConfig": {
@@ -1172,12 +1382,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1190,7 +1407,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol": {
-      "lastModificationDate": 1715869359008,
+      "lastModificationDate": 1716135060892,
       "contentHash": "eaebc3874248c26f6ea0b13b9a140a94",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol",
       "solcConfig": {
@@ -1207,12 +1424,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1227,7 +1451,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1715869359011,
+      "lastModificationDate": 1716135060893,
       "contentHash": "fad0b3f4424bdbb4b35467b29ea8d334",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -1244,12 +1468,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1279,12 +1510,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1316,12 +1554,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1359,12 +1604,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1394,12 +1646,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1429,12 +1688,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1464,12 +1730,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1501,12 +1774,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1538,12 +1818,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1575,12 +1862,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1613,12 +1907,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1652,12 +1953,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1689,12 +1997,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1726,12 +2041,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1765,12 +2087,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1805,12 +2134,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1844,12 +2180,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1881,12 +2224,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1899,7 +2249,7 @@
       ]
     },
     "/Users/idee/Documents/code/wyvern-v3/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
-      "lastModificationDate": 1715869355871,
+      "lastModificationDate": 1716135060859,
       "contentHash": "2adbd82f6d055a4751566d4671512b03",
       "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
       "solcConfig": {
@@ -1916,12 +2266,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },

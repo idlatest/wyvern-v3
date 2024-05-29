@@ -6,11 +6,11 @@
   "scripts": {
     "analyze": "scripts/analyze.sh",
     "flatten": "scripts/flatten.sh",
-    "compile": "scripts/compile.sh",
-    "coverage": "scripts/coverage.sh",
+    "compile": "npx hardhat compile",
+    "coverage": "npx hardhat coverage",
     "test": "scripts/test.sh",
     "lint": "scripts/lint.sh",
-    "testrpc": "scripts/testrpc.sh"
+    "testrpc": "hardhat node"
   },
   "repository": {
     "type": "git",
@@ -25,11 +25,13 @@
   "devDependencies": {
     "@babel/runtime": "^7.12.5",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "caver-js": "^1.11.0",
     "coveralls": "^3.1.0",
     "dotenv": "^8.2.0",
     "ethereumjs-testrpc-sc": "^6.5.1-sc.1",
     "ethers": "^6.12.1",
     "hardhat": "^2.22.4",
+    "hardhat-deploy": "^0.12.4",
     "lodash": "^4.17.20",
     "openzeppelin-solidity": "^3.3.0",
     "solium": "^1.2.5",

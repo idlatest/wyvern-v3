@@ -1,5 +1,4 @@
-Wyvern v3.1
------------
+## Wyvern v3.1
 
 ![Project Wyvern Logo](https://media.githubusercontent.com/media/ProjectWyvern/wyvern-branding/master/logo/logo-square-red-transparent-200x200.png?raw=true "Project Wyvern Logo")
 
@@ -56,5 +55,13 @@ yarn analyze
 Edit [truffle.js](truffle.js) according to your deployment plans, then run:
 
 ```bash
-yarn run truffle deploy --network [network]
+npx hardhat deploy --network [network]
+```
+
+#### Verify
+
+Verify on etherscan
+
+```bash
+npx hardhat --network [network] etherscan-verify --license MIT
 ```
